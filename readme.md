@@ -7,6 +7,12 @@ https://nixos.org/guides/dev-environment.html
 
 Install nix  
 
+````sh
+mkdir /nix  
+chown <YOUR_USERNAME> /nix
+sh <(curl -L https://nixos.org/nix/install) --daemon
+```
+
 ## How to build  
 
 ````sh
